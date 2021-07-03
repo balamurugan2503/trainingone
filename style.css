@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:whitesmoke;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+
+}
+
+.sidemenu{
+    width: 5%;
+    height: 100vh;
+    background-color:white;
+    box-shadow: 1px 1px 5px gray;
+    position: relative;
+    
+}
+.mainmenu{
+    width: 95%;
+    height: 100vh;
+
+}
+.topmenu{
+width: 100%;
+height: 12vh;
+background-color: white;
+box-shadow: -1px 0px 5px gray;
+}
+.sidemenu ul{
+    
+    list-style: none;    
+   
+    
+    
+}
+
+.sidemenu ul li a i{
+    font-size: 25px;
+
+    padding:25px;
+
+}
+.sidemenu ul li a:hover{
+    color: black;
+    background-color: skyblue;
+    display:block;
+
+}
+.sidemenu ul li a{
+  display: block;
+
+}
+
+form{
+    width: 70%;
+    margin: 100px auto;
+}
+input{
+    display: block;
+}
+.videos #url{
+    width:100%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+   
+}
+.videos p{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.videos button{
+    
+    background-color: white;
+    padding: 45px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.videos h2{
+    margin:50px;
+    
+    
+}
